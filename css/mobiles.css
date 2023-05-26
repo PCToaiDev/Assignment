@@ -1,0 +1,48 @@
+@media (max-width: 768px) {
+  .mypicture img {
+    display: none;
+  }
+
+  .navbar-content {
+    display: flex;
+    flex-direction: column;
+    align-items: start !important;
+  }
+  .navbar-content a {
+    border: 0;
+  }
+  #about .grip {
+    grid-template-columns: 1fr;
+  }
+
+  #job-info .grip-1 {
+    grid-template-columns: 1fr;
+  }
+  .item-2 {
+    order: 3;
+  }
+  .item-3 {
+    order: 1;
+  }
+  .item-4 {
+    order: 4;
+  }
+  .item-5 {
+    order: 5;
+  }
+  .item-6 {
+    order: 2;
+  }
+  #project .grip-1 {
+    grid-template-columns: 1fr;
+  }
+  #certificate .grip {
+    grid-template-columns: 1fr;
+  }
+  .certificate-content-2 {
+    margin-top: 20px;
+  }
+  #certificate .certificate-content-2 img {
+    border-left: 0;
+  }
+}

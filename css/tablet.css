@@ -1,0 +1,34 @@
+@media (max-width: 960px) {
+  .mypicture img {
+    display: none;
+  }
+  #about #target {
+    padding-left: 50px;
+  }
+  #job-info .grip-1 {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .item-2 {
+    order: 3;
+  }
+  .item-3 {
+    order: 1;
+  }
+  .item-4 {
+    order: 4;
+  }
+  .item-5 {
+    order: 5;
+  }
+  .item-6 {
+    order: 2;
+  }
+
+  .project {
+    width: 100%;
+  }
+  .project .grip-1 {
+    gap: 5px;
+  }
+}
